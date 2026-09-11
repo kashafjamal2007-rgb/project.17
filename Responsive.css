@@ -1,0 +1,22 @@
+
+@media (max-width:530px){
+.uparea{
+        display: block;
+}
+.uppersection{
+    width: 320px;
+}
+.rating{
+    font-size: 16px;
+}
+.hotelname{
+    font-size: 20px;
+}
+.Gym{
+    margin-bottom: 15px;
+}
+.money{
+    font-size: 20px;
+}
+
+}

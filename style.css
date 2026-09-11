@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Work Sans", sans-serif;
+    background-color: #f9fafc;
+}
+
+.outer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #dfdfdf;
+    padding: 100px;
+}
+
+.inner {
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 4px rgba(156, 150, 150, 0.6);
+    background-color: white;
+
+}
+
+.uppersection {
+    min-height: 250px;
+    width: 472px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(img.1/image\ \(7\).jpg);
+    background-size: cover;
+    background-position: top center;
+    border-radius: 15px 16px 0px 0px;
+}
+
+.position {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid#f0e8fa;
+    border-radius: 50px;
+    padding: 7px 8px 6px 8px;
+    background-color: #f0e8fa;
+    color: red;
+}
+
+.uparea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightarea {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Gym p:first-child::before {
+    margin-top: 10px;
+    content: "\f5c4";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    color: #585b60;
+}
+
+.Gym p:nth-child(2)::before {
+    margin-top: 10px;
+    content: "\f5bb";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    color: #585b60;
+}
+
+.Gym p:last-child::before {
+    margin-top: 10px;
+    content: "\f44b";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    color: #585b60
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: gray;
+}
+
+.Gym {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    color: gray;
+}
+
+.lowersection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.rating {
+    padding: 5px;
+    color: #f59b0a;
+}
+
+.hotel {
+    font-size: 40px;
+    color: white;
+}
+
+.hotelname {
+    padding: 5px;
+}
+
+.money {
+    font-size: 27px;
+}
+
+.uparea {
+    display: flex;
+}
+
+a{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.inner a:hover{
+    background-color: rgb(160, 149, 0);
+    color: white;
+    transition: 0.5s;
+}
+
