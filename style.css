@@ -37,8 +37,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;jpg
-    background-image: url(img1/image (7).jpg);
+    position: relative;
+    background-image:url('image (7).jpg');
     background-size: cover;
     background-position: top center;
     border-radius: 15px 16px 0px 0px;
